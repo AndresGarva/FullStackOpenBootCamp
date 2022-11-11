@@ -1,0 +1,30 @@
+package introduccionalaprogramacion;
+
+import java.util.ArrayList;
+
+public class IntroduccionALaProgramacion {
+    //Segunda parte
+        public static void main(String[] args) {
+        Coche miCoche = new Coche();
+        miCoche.SumarPuertas();
+        System.out.println(miCoche.Puertas);
+    }
+    //Primera parte
+    /*public static void main(String[] args) {
+      
+        int resultado =0;
+        resultado = suma(3, 5, 7);
+        System.out.println(resultado);    
+    }
+    public static int suma (int a, int b, int c){
+            return a+b+c;
+    }*/
+}
+    //Segunda parte
+    class Coche {
+            public int Puertas = 0;
+
+            public void SumarPuertas(){
+                this.Puertas++;
+            }
+        }
